@@ -1,0 +1,25 @@
+"""
+**Observações Importantes:**
+
+1. Para Gmail:
+   - Use senha de app (não sua senha normal)
+   - Ative autenticação de 2 fatores
+   - Gere senha de app em: Gmail > Configurações > Segurança
+
+2. Segurança:
+   - NUNCA compartilhe seu arquivo `.env`
+   - Mantenha apenas o `.env.example` no repositório
+   - Use senhas fortes e únicas
+
+3. Processo de uso:
+   bash
+   # 1. Clone o repositório
+   git clone seu-repositorio
+
+   # 2. Copie o arquivo de exemplo
+   cp .env.example .env
+
+   # 3. Edite o .env com seus dados
+   nano .env
+   
+   """
