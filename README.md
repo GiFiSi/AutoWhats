@@ -91,7 +91,7 @@ python main.py --config
 5. Logs detalhados de todas operações
 
 ## Manutenção
-Para controle de versão, siga os passos:
+Para atualizar a versão, siga os passos:
 1. Use Git Bash no terminal
 2. Execute `git add --all`
 3. Verifique com `git status`
