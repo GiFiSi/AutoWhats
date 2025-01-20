@@ -5,7 +5,7 @@ Este código implementa um sistema automatizado que realiza as seguintes funçõ
 1. Monitora uma caixa de e-mail específica
 2. Busca e-mails do Looker Studio
 3. Extrai imagens desses e-mails
-4. Envia as imagens automaticamente via WhatsApp
+4. Envia as imagens automaticamente via WhatsApp (para um grupo específico)
 
 ## Requisitos do Sistema
 - Python 3.x
@@ -29,10 +29,10 @@ projeto/
 ## Configuração
 ### Variáveis de Ambiente (.env)
 ```
-IMAP_SERVER=seu_servidor_imap
+IMAP_SERVER=seu_servidor_imap (Gmail ou qualquer outro)
 EMAIL_ADDRESS=seu_email
 EMAIL_PASSWORD=sua_senha
-WHATSAPP_NUMBER=numero_whatsapp
+WHATSAPP_NUMBER=numero_whatsapp (ID do grupo do Whats)
 ```
 
 ## Principais Funções
