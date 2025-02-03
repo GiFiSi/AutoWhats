@@ -15,6 +15,7 @@ Este código implementa um sistema automatizado que realiza as seguintes funçõ
   - python-dotenv
   - pywhatkit
   - logging
+  - pywin32
 
 ## Estrutura do Projeto
 ```
